@@ -95,7 +95,7 @@ public class EmployeeConverter {
         e.setName(ev.getName());
         e.setPassword(ev.getPassword());
         e.setAdminFlag(ev.getAdminFlag());
-        e.setCreatedAt(e.getCreatedAt());
+        e.setCreatedAt(ev.getCreatedAt());
         e.setUpdatedAt(ev.getUpdatedAt());
         e.setDeleteFlag(ev.getDeleteFlag());
     }
