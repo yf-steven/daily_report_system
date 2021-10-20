@@ -206,7 +206,7 @@ public class ReportAction extends ActionBase {
 
             // 入力された日報内容を設定する
             rv.setReportDate(toLocalDate(getRequestParam(AttributeConst.REP_DATE)));
-            rv.setTitle(getRequestParam(AttributeConst.REP_CONTENT));
+            rv.setTitle(getRequestParam(AttributeConst.REP_TITLE));
             rv.setContent(getRequestParam(AttributeConst.REP_CONTENT));
 
             // 日報データを更新する
